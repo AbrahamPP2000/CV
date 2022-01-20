@@ -1,0 +1,50 @@
+/*Automáticamente todos los textos con la etiqueta "h1" adoptarán el estilo especificado abajo.*/
+h1 {
+    font-family: 'Poppins';
+    font-size: 25px;
+    /*Color de fondo utilizando código hexadecimal*/
+    background: #5cb8ff;
+    /*Color de texto*/
+    color: red;
+    margin: 0;
+    padding: 0;
+    border: green 2px dotted;
+}
+
+
+p {
+    text-align: center;
+    color: black;
+    /*Tamaño de fuente*/
+    font-size: 20px;
+    /*Bordes*/
+}
+
+img {
+    /*Cambio de tamaño de la foto*/
+    display: block;
+    width: 20%;
+    margin: auto;
+    padding: 0;
+    border: red 3px solid;
+}
+
+.PersonalReferences {
+    /* Variable css personalizada*/
+    --color1: #6d70c0;
+    background: var(--color1);
+}
+
+.Personal h1{
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-size: 25px;
+    background: #5cb8ff;
+    color: red;
+    margin: 0;
+    padding: 0;
+    border: green 2px dotted;
+}
